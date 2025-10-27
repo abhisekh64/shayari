@@ -1,0 +1,25 @@
+
+/* ---------------------------------
+7. FOOTER INSTAGRAM STYLING 
+--------------------------------- */
+
+.footer-instagram-area{ overflow: hidden; border-top: 1px solid #ccc; }
+
+.footer-instagram-area .title{ padding: 20px 0; }
+
+.footer-instagram-area ul.instagram > li{ float: left; width: 14.285%; }
+
+
+/* ---------------------------------
+8. FOOTER
+--------------------------------- */
+
+footer{ background: #29333C; color: #ddd;  }
+
+footer .footer-section{ margin: 30px 0; }
+
+footer .copyright{ color: #ddd;  }
+
+footer .social-icons{ text-align: right; }
+
+footer .social-icons > li > a{ padding-left: 15px; }
