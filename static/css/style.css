@@ -129,8 +129,12 @@ button {
 }
 
 b.light-color {
-  /* color: #1FDB2B; */
+  /* font-size: 12px !important; */
   color: #549558;
+}
+
+.date em {
+  font-size: 11px;
 }
 
 /* ---------------------------------
@@ -296,8 +300,8 @@ b.light-color {
 --------------------------------- */
 
 .blog-posts .single-post {
-  margin-bottom: 60px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 20px;
   background: #fff;
   border-radius: 10px;
@@ -378,8 +382,8 @@ b.light-color {
 --------------------------------- */
 
 .sidebar-section {
-  margin-bottom: 50px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
@@ -393,6 +397,7 @@ b.light-color {
 
 .sidebar-area img {
   max-width: 600px;
+  border-radius: 10px;
 }
 
 
@@ -400,12 +405,12 @@ b.light-color {
 
 .about-author {
   margin-top: 30px;
-  padding: 0 30px 30px;
+  padding: 0 30px 0px;
 }
 
 .about-author .author-image {
-  max-width: 150px;
-  margin: 0px auto 20px;
+  max-width: 100px;
+  margin: 0px auto 0px;
   transform: translateY(-30px);
   border-radius: 3px;
   overflow: hidden;
@@ -419,7 +424,7 @@ b.light-color {
 }
 
 .about-author .author-name {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .about-author .signature-image {
@@ -477,9 +482,12 @@ b.light-color {
 
 
 /* NEWSLETTER AREA */
+.about-author p {
+  font-size: 13px;
+}
 
 .newsletter-area {
-  padding: 30px;
+  padding: 20px;
   background: #29333C;
 }
 
@@ -514,11 +522,15 @@ b.light-color {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 7px 20px;
+  padding: 8px;
   background: #1E9FA8;
   color: #fff;
+  font-size: 11px;
 }
 
+.latest-post-p{
+  font-size: 12px;
+}
 
 /* LATEST POSTS */
 
@@ -528,10 +540,13 @@ b.light-color {
 }
 
 .latest-post .l-post-image {
-  width: 80px;
+  width: 65px;
   float: left;
 }
-
+.instagram-img img{
+  height: 80px;
+  width: 100%;
+}
 .latest-post .post-info {
   margin-left: 100px;
 }
@@ -599,7 +614,9 @@ b.light-color {
 }
 
 .tags-area .tags>li>a {
-  padding: 10px 15px;
+  padding: 4px 15px;
+  font-size: 12px;
+  border-radius: 5px;
 }
 
 .image-wrapper {
@@ -617,4 +634,16 @@ b.light-color {
 
 .title {
   font-size: 18px;
+}
+
+
+header .main-menu li:nth-child(1) a {
+    color: #ffad4d;
+    background: #F2F3F4 !important;
+}
+
+.read-more{
+  border: none;
+  padding: 10px 0px;
+  color: #436e99 !important;
 }
