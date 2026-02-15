@@ -258,7 +258,7 @@ b.light-color {
 --------------------------------- */
 
 .main-slider {
-  margin-top: 265px;
+  /* margin-top: 265px; */
   position: relative;
   height: calc(100vh - 265px);
   min-height: 550px;
@@ -324,6 +324,7 @@ b.light-color {
 }
 
 .single-post .icons ul.social-icons>li>a {
+   color: #919395;
   padding-left: 15px;
 }
 
@@ -646,4 +647,19 @@ header .main-menu li:nth-child(1) a {
   border: none;
   padding: 10px 0px;
   color: #436e99 !important;
+}
+
+.filter{
+  margin: 20px 10px;
+}
+
+.light-color-text{
+  color: #549558;
+}
+
+.subtitle{
+  font-weight: 600;
+      color: #549558;
+    font-size: 30px;
+    text-align: center;
 }
