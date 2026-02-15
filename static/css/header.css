@@ -107,7 +107,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 4. SLIDER
 --------------------------------- */
 
-.main-slider{ margin-top: 265px; position: relative; height: calc(100vh - 265px); min-height: 550px;
+.main-slider{  position: relative; height: calc(100vh - 265px); min-height: 550px;
 	width: 100%; overflow: hidden; }  
  
 .main-slider .slider-content{ padding: 25px 60px 25px 40px!important; border-radius: 3px!important;
